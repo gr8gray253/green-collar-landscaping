@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "Bash(where:*)",
+      "Bash(dir:*)",
+      "Bash(copy \"photos\\retaining wall 1 b4.jpg\" \"public\\photos\\retaining wall 1 b4.jpg\")",
+      "Bash(copy \"photos\\retaining wall 1 after.jpg\" \"public\\photos\\retaining wall 1 after.jpg\")",
+      "Bash(copy \"photos\\retaining wall 2 completed.jpg\" \"public\\photos\\retaining wall 2 completed.jpg\")",
+      "Bash(copy:*)",
+      "Bash(copy \"photos\\retaining wall 2 angle 3.jpg\" \"public\\photos\\retaining wall 2 angle 3.jpg\")",
+      "Bash(npm run build:*)",
+      "Bash(npm run preview:*)",
+      "Bash(npm audit:*)",
+      "Bash(findstr:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(cp:*)",
+      "Bash(ls:*)",
+      "Bash(for file in *)",
+      "Bash(do cp -v \"$file\" \"../$file\")",
+      "Bash(done)"
+    ]
+  }
+}
